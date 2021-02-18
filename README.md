@@ -1,10 +1,9 @@
-### Lunzi
+## Lunzi, a simple and boring repo.
 > Running Mars
 
-Make Lunzi for practice.</br>
-Practice makes perfect!
+Make Lunzi for practice.Practice makes perfect!
 
-### Lunzi List
+## Lunzi List
 1.curve fitting</br>
 2.points classification</br>
 3.build neural network quickly</br>
@@ -14,3 +13,5 @@ Practice makes perfect!
 7.cnn</br>
 8.rnn</br>
 9.CartPole-DQN</br>
+
+to be continued..
