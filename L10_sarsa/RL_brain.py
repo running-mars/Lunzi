@@ -55,7 +55,7 @@ class QLearningTable(RL):
         self.check_state_exist(s_)
         qPredict = self.qTable.loc[s, a]
         if s_ != 'terminal':
-            qTarget = r + self.gamma*self.qTable[s_, :].max()
+            qTarget = r + self.gamma*self.qTable.loc[s_, :].max()
         else:
             qTarget = r
         self.qTable.loc[s, a] += self.learningRate*(qTarget - qPredict)
